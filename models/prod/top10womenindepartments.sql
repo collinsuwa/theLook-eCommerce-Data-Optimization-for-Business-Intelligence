@@ -6,4 +6,4 @@ GROUP BY
     1, 2, 3, 4
 ORDER BY 
     total_cost DESC
-LIMIT 20
+LIMIT 10

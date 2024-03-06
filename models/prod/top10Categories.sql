@@ -1,4 +1,8 @@
-SELECT p.id, p.name, p.category, SUM(o.num_of_item) AS total_sold
+SELECT 
+p.id, 
+p.name, 
+p.category, 
+SUM(o.num_of_item) AS total_sold
 FROM 
     {{ ref("stgProducts") }} p
 JOIN 
@@ -6,7 +10,7 @@ JOIN
 JOIN 
     {{ ref("stgOrders") }} o ON oi.order_id = o.order_id
 GROUP BY 
-    p.id, p.name, p.category
+    1, 2, 3
 ORDER BY 
     total_sold DESC
 LIMIT 10
