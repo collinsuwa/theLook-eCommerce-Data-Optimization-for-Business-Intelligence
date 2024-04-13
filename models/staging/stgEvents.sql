@@ -11,4 +11,4 @@ SELECT
     traffic_source,
     uri,
     event_type
-FROM `bigquery-public-data.thelook_ecommerce.events`
+FROM `bigquery-public-data.thelook_ecommerce.events` 

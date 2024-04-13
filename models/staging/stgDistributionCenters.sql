@@ -1,1 +1,1 @@
-SELECT * FROM `bigquery-public-data.thelook_ecommerce.distribution_centers`
+SELECT * FROM `bigquery-public-data.thelook_ecommerce.distribution_centers` WHERE id IS NOT NULL
