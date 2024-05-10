@@ -1,6 +1,6 @@
 SELECT  
     DISTINCT oi.product_id, 
-            p.name AS product_name,
+            p.category AS product_category,
             oi.sale_price,
             SUM (o.num_of_item) total_amount_purchased,
             (oi.sale_price * SUM (o.num_of_item)) total_sales_revenue
