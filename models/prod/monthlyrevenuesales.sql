@@ -10,8 +10,6 @@ INNER JOIN
     {{ ref("stgOrders") }} o 
 ON 
     oi.order_id = o.order_id
-WHERE 
-    oi.status NOT IN ('Cancelled', 'Returned')
 GROUP BY 
     1
 ORDER BY 
