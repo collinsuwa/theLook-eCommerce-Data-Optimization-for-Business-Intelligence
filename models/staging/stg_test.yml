@@ -89,6 +89,7 @@ models:
           - unique
           - not_null
       - name: traffic_source
+        description: '{{ doc("traffic_source") }}'
         tests:
           - accepted_values:
               values:
@@ -96,7 +97,7 @@ models:
                 - Email
                 - Facebook
                 - Organic
-                - Search    
+                - Search
 
 
 
