@@ -26,6 +26,7 @@ models:
           - unique
           - not_null
       - name: event_type
+        description: '{{ doc("event_type") }}'
         tests:
           - accepted_values:
               values:
