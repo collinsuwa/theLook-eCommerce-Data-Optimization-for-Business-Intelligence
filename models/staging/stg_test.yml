@@ -98,13 +98,29 @@ models:
                 - Facebook
                 - Organic
                 - Search
-
-
-
-
-
-
-
-
-
-
+      - name: first_name
+        description: First name of the user
+      - name: last_name 
+        description: Last name of the user
+      - name: email
+        description: Email address of the user
+      - name: age
+        description: Age of the user
+      - name: gender
+        description: Gender of the user
+      - name: state
+        description: State where the user is located
+      - name: street_address
+        description: Street address of the user
+      - name: postal_code
+        description: Postal code of the user
+      - name: city
+        description: City where the user is located
+      - name: country
+        description: Country where the user is located
+      - name: latitude
+        description: Latitude coordinate of the user
+      - name: longitude
+        description: Longitude coordinate of the user
+      - name: created_at
+        description: Timestamp indicating when the user account was created
