@@ -13,10 +13,10 @@ This repository contains the data analysis project for the Look eCommerce platfo
 - [Objectives](#objectives)
 - [Data Pipeline](#data-pipeline)
 - [Analysis Process](#analysis-process)
-- [Results and Insights](#results-and-insights)
+- [Analysis and Key Insights](#analysis-and-key-insights)
 - [Conclusion](#conclusion)
-- [Dependencies](#dependencies)
-- [Contact](#contact)
+- [Tools and Technologies](#tools-and-technologies)
+  
 
 ## Introduction
 
