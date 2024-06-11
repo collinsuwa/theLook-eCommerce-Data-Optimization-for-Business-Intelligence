@@ -28,6 +28,28 @@ The Look eCommerce platform aims to improve its data-driven decision-making proc
 - **dbt Cloud**: Data transformation and modeling.
 - **Power BI**: Data visualization and insights.
 
+## Available Data
+
+### Dataset
+
+You can access the dataset via the following link: [TheLook E-commerce Data](https://console.cloud.google.com/bigquery?p=bigquery-public-data&d=thelook_ecommerce&page=dataset&project=algora-416323&authuser=2&ws=!1m4!1m3!3m2!1sbigquery-public-data!2sthelook_ecommerce)
+
+### Data Source
+
+The data is sourced from BigQuery Public Data.
+
+### Dataset Structure
+
+The TheLook E-commerce database consists of 7 tables:
+- `distribution_centers`
+- `events`
+- `inventory_items`
+- `order_items`
+- `orders`
+- `products`
+- `users`
+
+
 ## Dataset
 
 The dataset includes information related to orders, customers, products, and interactions on the Look eCommerce platform. Key columns in the dataset are:
