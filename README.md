@@ -36,7 +36,7 @@ You can access the dataset via the following link: [TheLook E-commerce Data](htt
 
 ### Data Source
 
-The data is sourced from BigQuery Public Data.
+The data is sourced from BigQuery Public Data: [TheLook E-commerce Data](https://console.cloud.google.com/bigquery?p=bigquery-public-data&d=thelook_ecommerce&page=dataset&project=algora-416323&authuser=2&ws=!1m4!1m3!3m2!1sbigquery-public-data!2sthelook_ecommerce)
 
 ### Dataset Structure
 
@@ -49,17 +49,6 @@ The TheLook E-commerce database consists of 7 tables:
 - `products`
 - `users`
 
-
-## Dataset
-
-The dataset includes information related to orders, customers, products, and interactions on the Look eCommerce platform. Key columns in the dataset are:
-- `order_id`: Unique identifier for each order.
-- `customer_id`: Unique identifier for each customer.
-- `product_id`: Unique identifier for each product.
-- `order_date`: Date when the order was placed.
-- `order_amount`: Total amount of the order.
-- `customer_details`: Demographic and contact information of customers.
-- `product_details`: Information about products such as name, category, and price.
 
 ## Objectives
 
@@ -96,4 +85,3 @@ The analysis of the Look eCommerce data using Google BigQuery, dbt Cloud, and Po
 - Google BigQuery
 - dbt Cloud
 - Power BI
-
