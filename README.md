@@ -70,17 +70,38 @@ The TheLook E-commerce database consists of 7 tables:
 4. **Advanced Analysis**: Perform detailed analysis using DAX (Data Analysis Expressions) in Power BI to calculate key metrics and KPIs.
 5. **Reporting**: Create and publish Power BI dashboards that provide insights into sales performance, customer behavior, and product trends.
 
-## Results and Insights
 
-- **Sales Trends**: Identified peak sales periods and top-performing products.
-- **Customer Segmentation**: Segmented customers into different groups based on purchasing patterns and identified high-value customer segments.
-- **Product Analysis**: Analyzed product performance and identified opportunities for cross-selling and upselling.
+## Analysis and Key Insights
+
+1. **Return Rate Analysis**: 
+    - Examine the percentage of products returned by customers.
+    - Identify patterns in product returns to improve product quality and customer satisfaction.
+
+2. **Time Series of Events**:
+    - Analyze event data over time to identify trends and patterns.
+    - Use time series analysis to forecast future events and understand seasonal behaviors.
+
+3. **Product Performance**:
+    - Evaluate the performance of products by category, brand, and distribution center.
+    - Identify top-selling items and underperforming products to optimize inventory and marketing strategies.
+
+4. **Recent Order Segment**:
+    - Segment recent orders to understand current purchasing trends.
+    - Analyze order data to identify recent spikes or drops in sales.
+
+5. **Customer Purchasing Pattern**:
+    - Analyze purchasing patterns to understand customer preferences.
+    - Segment customers based on their purchasing behavior to tailor marketing efforts.
+
+6. **Customer Frequency of Purchase**:
+    - Determine how often customers make purchases.
+    - Identify high-frequency customers and target them for loyalty programs and special offers.
 
 ## Conclusion
 
 The analysis of the Look eCommerce data using Google BigQuery, dbt Cloud, and Power BI provided valuable insights into sales performance, customer behavior, and product trends. These insights can help inform strategic decisions, improve customer engagement, and optimize inventory management.
 
-## Dependencies
+## Tools and Technologies
 
 - Google BigQuery
 - dbt Cloud
